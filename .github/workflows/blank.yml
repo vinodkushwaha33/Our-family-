@@ -21,7 +21,7 @@ jobs:
 
       - name: Extract App ZIP
         run: |
-          unzip -o our-family.zip -d app
+          unzip -o Our-family.zip -d app
 
       - name: Install Dependencies
         working-directory: app
